@@ -10,6 +10,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'uglifier'
+gem 'chartkick'
 
 gem 'dynamic_form'
 gem 'elo'
@@ -42,4 +43,5 @@ group :test do
   gem 'mocha'
   gem 'rspec-rails', '~> 2.14.2'
   gem 'timecop'
+  gem 'codeclimate-test-reporter', require: nil
 end
